@@ -1,5 +1,5 @@
 // Use binary searh to determine if an element exists in an array
-// Time complexity O(log n)
+// Time complexity O(log n) === T(n) = T(n/2) + c
 
 class BinarySearch{
     // Returns index of x if it is present in arr[l..r], else return -1
